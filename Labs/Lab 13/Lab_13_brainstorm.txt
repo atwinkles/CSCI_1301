@@ -1,0 +1,8 @@
+Lab 13 Brainstorm (absent)
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to expand upon the code developed in last 
+weeks lab in order to make the program more robust overall. 

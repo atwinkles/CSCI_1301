@@ -1,0 +1,11 @@
+Lab 4 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to read in a message string and parse it into smaller
+strings based on a whitespace delimiter then print out the parsed strings nicely.
+The Scanner class will be utilized, as well as several String methods such as
+.next(), .nextDouble, and .equalsIgnoreCase(). Additionally the code will classify 
+the type of message by using if, else if, else statements. 

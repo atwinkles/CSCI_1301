@@ -1,0 +1,38 @@
+Lab 8 Brainstorm
+
+Alexander Winkles
+
+Members: (was out sick)
+
+The goal of this lab is to implement a program that generates two 1D arrays
+based on the equation y = 20.0*|sinx|. The program will use the Scanner 
+class to prompt the user for three values: N, xmin, and xstep. N is the 
+size of the array, xmin is the minimum x value, and xstep is the increment
+of x. If the user inputs a negative N, the program will display an error
+and exit. After all x and y values are computed, a simple graph is displayed
+using asterisks. 
+
+pseudocode:
+
+N = keyboard.nextInt();
+xmin = keyboard.nextDouble();
+xstep = keyboard.nextDouble();
+
+double[] x = new double[N];
+double[] y = new double[N];
+
+x[0] = xmin;
+
+for (int i = 1; i < N; i++) {
+x[i] = x[i-1] + xstep;
+}
+for (int i = 0; i<N; i++) {
+y[i] = 20.0*Math.abs(Math.sin(x));
+}
+
+for (int i = 0; i < N; i++) {
+    for (int j = (int)(y[i]); j >= 0; j--) {
+        System.out.print("*");
+    }
+}
+

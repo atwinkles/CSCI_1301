@@ -1,0 +1,20 @@
+Lab 12 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to develop an entire class consisting of 
+constructors, accessors, mutators, and useful methods on our own. 
+A key aspect of this lab is the consideration of memory differences
+between primative types and class types such as arrays - ie to properly
+set and get the data for the Stat class, a new array must be constructed
+rather than referencing an existing one, so that if said existing array
+is altered, it does not necessarily alter that of the Stat class instance.
+Beyond this consideration, methods will be created that check if two 
+instances are equal, compute the average of the data, and find the mode of 
+the data. For the mode (arguably the most complicated method), a new array
+will be created that will count the occurances of each number in each 
+position. This array will then be analyzed to find the position of the
+number that occurs most frequently. If there are more than one,
+the method will return Nan.

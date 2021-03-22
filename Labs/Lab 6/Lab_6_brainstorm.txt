@@ -1,0 +1,11 @@
+Lab 6 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to read in a natural number and check whether it is 
+a palindrome or not. If anything besides a natural number is given, an error
+will be returned. To check if the number is a palindrome or not, modulus will
+be used as well as Math.log10 and Math.pow. The Scanner class is used to take
+in the original natural number.

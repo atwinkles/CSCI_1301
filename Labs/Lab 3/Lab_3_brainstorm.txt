@@ -1,0 +1,16 @@
+Lab 3 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to read in a ``tweet'' string and parse it into smaller
+strings based on hashtag delimiters then print out the parsed strings nicely.
+The Scanner class will be utilized, as well as several String methods. A 
+pseudocode follows:
+
+input: tweet
+constants: N/A
+do: parsedTweet = tweet.split(<delimiters>)
+do: formatTweet = parsedTweet.replace(',','-').replace(';',' ');
+output: nicely formated strings! 

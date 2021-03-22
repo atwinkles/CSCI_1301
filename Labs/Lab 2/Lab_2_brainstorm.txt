@@ -1,0 +1,27 @@
+Lab 2 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to compute a person's gross and net pay based on 
+hourly wages, hours worked, and withholdings. To accomplish this,
+constants outlined in the lab will be declared outside of the main
+method. To compute gross pay, the code will utilize the Scanner class
+to find how many hours the user worked and will assign their input to
+hoursPerWeek. Then the code will compute hoursPerWeek*PAY_PER_HOUR to find
+the gross pay. Each tax deduction will then be calculated and assigned to 
+their respective variables. The sum of these taxes will then be subtracted
+from the gross pay to find the net pay. All the results will be printed 
+nicely as outlined by the lab instructions. A pseudocode follows:
+
+input: hoursPerWeek
+constants: FEDERAL_TAX_PERCENT, STATE_TAX_PERCENT, SS_PERCENT,
+            MEDICARE_PERCENT, PAY_PER_HOUR
+do: grossPay = hoursPerWeek*PAY_PER_HOUR
+do: fedTax = FEDERAL_TAX_PERCENT*grossPay 
+do: stateTax = STATE_TAX_PERCENT*grossPay 
+do: medicare = MEDICARE_PERCENT*grossPay
+do: ss = SS_PERCENT*grossPay
+do: netPay = grossPay - (fedTax+stateTax+medicare+ss)
+return: grossPay, netPay, fedTax, stateTax, medicare, ss

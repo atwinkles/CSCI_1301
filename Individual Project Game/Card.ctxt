@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=suit\ face
+comment0.target=Card(java.lang.String,\ java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Card\n
+comment1.params=
+comment1.target=void\ printInfo()
+comment2.params=
+comment2.target=int\ getFaceValue()
+numComments=3

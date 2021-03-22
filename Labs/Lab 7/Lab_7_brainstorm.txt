@@ -1,0 +1,11 @@
+Lab 7 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to write software that will ask for a string, then give
+various options to the user on how the string can be manipulated. The user will
+choose an option, and if the choice is valid the program will return the proper
+result. This lab will utilize while and for loops, as well as basic string 
+methods. 

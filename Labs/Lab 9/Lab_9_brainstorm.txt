@@ -1,0 +1,13 @@
+Lab 9 Brainstorm
+
+Alexander Winkles
+
+Members: John Tang, Hojun Lee, Jordan McCombs
+
+The goal of this lab is to understand the basics behind OOP. To do this
+a template file Circle.java is given, which is a circle class with
+several incomplete methods. In this lab, we will complete these methods
+with the proper inputs and return statements. These methods includes
+mutators and accessors to change and retrieve values of the circle objects.
+Once the class is complete, the CircleTester.java file will be edited and
+run to test if the various methods work with two different circle variables.
